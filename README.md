@@ -28,3 +28,9 @@ Install dependencies & run app
 npm install
 ./run.sh
 ```
+
+You can also run the included build.sh file to make an executable
+```
+./build.sh
+./SimplyCalc
+```
