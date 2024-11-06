@@ -1,6 +1,6 @@
 {
   "name": "simplycalc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple calculator app.",
   "main": "index.js",
   "type": "commonjs",
@@ -10,10 +10,8 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "electron": "^33.0.2"
-  },
   "dependencies": {
+    "electron": "^33.1.0",
     "expr-eval": "^2.0.2"
   }
 }
