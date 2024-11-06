@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+        <title>SimplyCalc</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="scripts.js" defer></script>
+    </head>
+    <body>
+        <span id="input" class="darkgray">0</span>
+        <div class="col" id="buttons">
+            <div class="row">
+                <div class="button gray special">AC</div>
+                <div class="button gray special">+/-</div>
+                <div class="button gray special">%</div>
+                <div class="button accent">/</div>
+            </div>
+            <div class="row">
+                <div class="button darkgray">7</div>
+                <div class="button darkgray">8</div>
+                <div class="button darkgray">9</div>
+                <div class="button accent">*</div>
+            </div>
+            <div class="row">
+                <div class="button darkgray">4</div>
+                <div class="button darkgray">5</div>
+                <div class="button darkgray">6</div>
+                <div class="button accent">-</div>
+            </div>
+            <div class="row">
+                <div class="button darkgray">1</div>
+                <div class="button darkgray">2</div>
+                <div class="button darkgray">3</div>
+                <div class="button accent">+</div>
+            </div>
+            <div class="row">
+                <div class="button darkgray doubleW">0</div>
+                <div class="button darkgray">.</div>
+                <div class="button accent special">=</div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "simplycalc",
+  "version": "1.0.0",
+  "description": "A simple calculator app.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^33.0.2"
+  },
+  "dependencies": {
+    "expr-eval": "^2.0.2"
+  }
+}
